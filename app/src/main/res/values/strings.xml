@@ -1,3 +1,19 @@
 <resources>
     <string name="eye_app_name">Eye Health</string>
+
+    <!--text for login page-->
+    <string name="eye_hint_email">อีเมล์</string>
+    <string name="eye_hint_password">รหัสผ่าน</string>
+    <string name="eye_button_signIn">เข้าสู่ระบบ</string>
+    <string name="eye_button_register">ลงทะเบียน</string>
+    <string name="eye_button_guest">ข้ามขั้นตอนการลงทะเบียน</string>
+
+    <!-- Error message -->
+    <string name="eye_error_password_more_length">รหัสผ่านต้องกรอกอย่างน้อย 8 ตัวอักษร</string>
+    <string name="eye_error_not_enter_email">กรุณากรอกอีเมล์</string>
+    <string name="eye_error_not_match_email">กรุณากรอกอีเมล์ให้ถูกต้องตามตัวอย่าง Exam@exam.com</string>
+    <string name="eye_error_not_enter_password">กรุณากรอกรหัสผ่าน</string>
+    <string name="eye_error_password_less">กรุณากรอกรหัสอย่างน้อย 8 ตัวอักษร และไม่เกิน 12 อักษร</string>
+
+
 </resources>

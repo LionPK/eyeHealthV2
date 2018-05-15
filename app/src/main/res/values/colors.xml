@@ -5,7 +5,8 @@
     <color name="colorAccent">#88ffff</color>
     <color name="textColorPrimary">#000000</color>
     <color name="toolbarIconColor">@color/textColorPrimary</color>
-    <color name="loginPageBackgroundColor">#ffffff</color>
+    <color name="signPageBackgroundColor">#e0f7fa</color>
     <color name="productGridBackgroundColor">#FFFBFA</color>
     <color name="colorControlActivated">#00acc1</color>
+    <color name="signUpBackgroundColor">#80deea</color>
 </resources>

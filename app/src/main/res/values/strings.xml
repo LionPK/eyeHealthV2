@@ -1,19 +1,39 @@
 <resources>
     <string name="eye_app_name">Eye Health</string>
 
-    <!--text for login page-->
+    <!--text for sign in page-->
     <string name="eye_hint_email">อีเมล์</string>
     <string name="eye_hint_password">รหัสผ่าน</string>
     <string name="eye_button_signIn">เข้าสู่ระบบ</string>
     <string name="eye_button_register">ลงทะเบียน</string>
     <string name="eye_button_guest">ข้ามขั้นตอนการลงทะเบียน</string>
 
-    <!-- Error message -->
+    <!-- Sign in error message -->
     <string name="eye_error_password_more_length">รหัสผ่านต้องกรอกอย่างน้อย 8 ตัวอักษร</string>
     <string name="eye_error_not_enter_email">กรุณากรอกอีเมล์</string>
     <string name="eye_error_not_match_email">กรุณากรอกอีเมล์ให้ถูกต้องตามตัวอย่าง Exam@exam.com</string>
     <string name="eye_error_not_enter_password">กรุณากรอกรหัสผ่าน</string>
     <string name="eye_error_password_less">กรุณากรอกรหัสอย่างน้อย 8 ตัวอักษร และไม่เกิน 12 อักษร</string>
+
+
+    <!-- text for Sign up page -->
+    <string name="eye_sign_up_name">ลงทะเบียนผู้ใช้งาน</string>
+    <string name="eye_hint_name">ชื่อ</string>
+    <string name="eye_hint_surname">นามสกุล</string>
+    <string name="eye_hint_email_sign_up">อีเมล์ (Exam@exam.com)</string>
+    <string name="eye_hint_password_sign_up">รหัสผ่าน (A-Z,0-9)</string>
+    <string name="eye_hint_re_enter_password">ยินยันรหัสผ่าน</string>
+    <string name="eye_button_cancal">ยกเลิก</string>
+    <string name="eye_button_link_to_sign_in">กลับไปยังหน้าต่างเข้าสู่ระบบ</string>
+
+    <!-- Sign up error message -->
+    <string name="eye_error_not_enter_name">กรุณากรอกชื่อ</string>
+    <string name="eye_error_not_enter_surname">กรุณากรอกนามสกุล</string>
+    <string name="eye_error_not_enter_pass">กรุณากรอกรหัสผ่าน</string>
+    <string name="eye_error_not_enter_re_pass">กรุณากรอกรหัสยืนยัน</string>
+    <string name="eye_error_not_enter_re_pass_notmatch">รหัสการยืนยันไม่ตรงกันโปรดตรวจสอบอีกครั้ง</string>
+
+
 
 
 </resources>

@@ -6,18 +6,18 @@
     android:layout_height="match_parent"
     android:clipChildren="false"
     android:clipToPadding="false"
-    tools:context=".startup.SignInActivity">
+    tools:context=".startup.GuestUserActivity">
 
+    <include layout="@layout/eye_guest_user" />
 
-    <include layout="@layout/eye_sign_up" />
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:elevation="8dp">
+        app:elevation="0dp">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/app_bar_sign_up"
+            android:id="@+id/app_bar_infor_eye"
             style="@style/Widget.eyeHealth.Toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -27,8 +27,7 @@
             android:paddingRight="12dp"
             app:contentInsetStart="0dp"
             app:navigationIcon="@drawable/ic_back"
-            app:title="@string/eye_sign_up_name" />
+            app:title="@string/eye_guest_name" />
     </android.support.design.widget.AppBarLayout>
-
 
 </FrameLayout>

@@ -33,7 +33,13 @@
     <string name="eye_error_not_enter_re_pass">กรุณากรอกรหัสยืนยัน</string>
     <string name="eye_error_not_enter_re_pass_notmatch">รหัสการยืนยันไม่ตรงกันโปรดตรวจสอบอีกครั้ง</string>
 
+    <!--Guest menu-->
+    <string name="eye_guest_name">ตรวจสอบข้อมูลการดูแลสุขภาพตา</string>
+    <string name="eye_guest_title1">ความรู้เกี่ยวกับโรคตา</string>
+    <string name="eye_guest_title2">ความรู้เกี่ยวกับการรับประทานอาหาร</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -44,11 +45,29 @@ public class SignUpActivity extends AppCompatActivity {
     private SessionManager session;
     private SQLiteHandler db;
 
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.eye_sign_up_activity);
 
+        //Tool bar back menu
+        Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar_sign_up);
+        setSupportActionBar(toolbar);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(SignUpActivity.this,
+                        SignInActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //declare type link to id on view .xml file
         inputName = (EditText) findViewById(R.id.name_edit_text);
         inputSurname = (EditText) findViewById(R.id.surname_edit_text);
         inputEmail = (EditText) findViewById(R.id.email_edit_text);

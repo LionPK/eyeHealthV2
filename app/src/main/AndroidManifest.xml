@@ -14,7 +14,7 @@
         android:name="android.permission.PACKAGE_USAGE_STATS"
         tools:ignore="ProtectedPermissions" />
 
-    <!--android:name=".application.EyeHealthApplication"-->
+    <!-- android:name=".application.EyeHealthApplication" -->
     <application
         android:name=".app.AppController"
         android:allowBackup="true"
@@ -33,7 +33,8 @@
         <activity android:name=".startup.MainActivity" />
         <activity android:name=".startup.SignInActivity" />
         <activity android:name=".startup.SignUpActivity" />
-        <activity android:name=".startup.GuestActivity"></activity>
+        <activity android:name=".startup.GuestUserActivity" />
+        <activity android:name=".introHealth.IntroEyeActivity" />
     </application>
 
 </manifest>

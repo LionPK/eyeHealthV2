@@ -72,7 +72,7 @@ public class SignInActivity extends AppCompatActivity {
         findViewById(R.id.guest_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(SignInActivity.this, GuestActivity.class));
+                startActivity(new Intent(SignInActivity.this, GuestUserActivity.class));
             }
         });
 

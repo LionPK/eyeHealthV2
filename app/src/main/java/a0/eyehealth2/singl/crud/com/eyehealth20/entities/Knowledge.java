@@ -10,14 +10,6 @@ public class Knowledge implements Serializable {
     private String detail;
     private String image;
 
-    public Knowledge(int id_know, String type, String name, String detail, String image) {
-        this.id_know = id_know;
-        this.type = type;
-        this.name = name;
-        this.detail = detail;
-        this.image = image;
-    }
-
     public int getId_know() {
         return id_know;
     }

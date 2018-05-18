@@ -34,7 +34,7 @@
         <activity android:name=".startup.SignInActivity" />
         <activity android:name=".startup.SignUpActivity" />
         <activity android:name=".startup.GuestUserActivity" />
-        <activity android:name=".introHealth.IntroEyeActivity" />
+        <activity android:name=".introHealth.DetailActivity"></activity>
     </application>
 
 </manifest>

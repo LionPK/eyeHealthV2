@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context=".introHealth.DetailActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/app_bar_detail"
+            style="@style/Widget.eyeHealth.Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:paddingStart="12dp"
+            android:paddingLeft="12dp"
+            android:paddingEnd="12dp"
+            android:paddingRight="12dp"
+            app:contentInsetStart="0dp"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="@string/eye_sign_up_name" />
+    </android.support.design.widget.AppBarLayout>
 
     <ScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -54,7 +74,7 @@
                     android:minLines="1"
                     android:textStyle="bold"
                     android:textColor="@color/textColorPrimary"
-                    android:text="Title" />
+                    android:text="หัวเรื่อง" />
 
                 <TextView
                     android:id="@+id/descDetailTxt"
@@ -62,7 +82,7 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:textColor="#0f0f0f"
-                    android:text="This user has worked with our company for two years now.He has been dedicated and really a team player.The tasks we have assigned him have been executed expertly.He is a true professional..." />
+                    android:text="ข้อมูลคำอธิบายจะแสดงอยู่ตรงนี้-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------" />
             </LinearLayout>
 
 

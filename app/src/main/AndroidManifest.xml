@@ -30,11 +30,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".startup.MainActivity" />
+        <!--<activity android:name=".startup.MainActivity" />-->
         <activity android:name=".startup.SignInActivity" />
         <activity android:name=".startup.SignUpActivity" />
         <activity android:name=".startup.GuestUserActivity" />
         <activity android:name=".introHealth.DetailActivity"></activity>
+
+        <activity
+            android:name=".startup.MainActivity"
+            android:label="@string/eye_app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!--<receiver android:name=".startup.MenuActivity" />-->
+        <!--<receiver android:name=".startup.UserDetailActivity" />-->
+
+        <activity android:name=".adapter.StatsListAdapter" />
+        <activity android:name=".introHealth.TestActivity"></activity>
     </application>
 
 </manifest>

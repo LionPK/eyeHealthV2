@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,11 +13,17 @@
         android:layout_height="wrap_content">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+            android:id="@+id/app_bar_view_knowledge"
+            style="@style/Widget.eyeHealth.Toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"/>
-
+            android:paddingStart="12dp"
+            android:paddingLeft="12dp"
+            android:paddingEnd="12dp"
+            android:paddingRight="12dp"
+            app:contentInsetStart="0dp"
+            app:navigationIcon="@drawable/ic_back"
+            app:title="@string/eye_sign_knowledge_name" />
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_main_knowledge" />
@@ -26,6 +34,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
 
-        android:src="@android:drawable/ic_dialog_email" />
+        android:src="@drawable/ic_view_day" />
 
 </android.support.design.widget.CoordinatorLayout>

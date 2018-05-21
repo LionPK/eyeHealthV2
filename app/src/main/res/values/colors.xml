@@ -9,4 +9,13 @@
     <color name="productGridBackgroundColor">#FFFBFA</color>
     <color name="colorControlActivated">#00acc1</color>
     <color name="signUpBackgroundColor">#80deea</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhiteTransparent">#80ffffff</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="white">#ffffff</color>
+    <color name="gen_black">#000000</color>
+    <color name="gen_white">#FFFFFF</color>
+    <color name="blue">#59E817</color>
 </resources>

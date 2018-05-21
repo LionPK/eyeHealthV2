@@ -20,9 +20,17 @@ public class GuestUserActivity extends AppCompatActivity {
         setContentView(R.layout.eye_knowledge_activity);
 
         //Tool bar back menu
-        Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar_infor_eye);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.app_bar_view_knowledge);
         setSupportActionBar(toolbar);
 
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                android.content.Intent intent = new android.content.Intent(GuestUserActivity.this,
+                        SignInActivity.class);
+                startActivity(intent);
+            }
+        });
         // Set grid action
         gv= (GridView) findViewById(R.id.knowledge_gv);
 
@@ -30,6 +38,7 @@ public class GuestUserActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 new JSONDownloaderOne(GuestUserActivity.this,jsonURL,gv).execute();
 
             }

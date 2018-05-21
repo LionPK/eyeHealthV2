@@ -37,9 +37,51 @@
     <string name="eye_guest_name">ตรวจสอบข้อมูลการดูแลสุขภาพตา</string>
     <string name="eye_guest_title1">ความรู้เกี่ยวกับโรคตา</string>
     <string name="eye_guest_title2">ความรู้เกี่ยวกับการรับประทานอาหาร</string>
+    <string name="eye_sign_knowledge_name">ข้อมูลเกล็ดความรู้</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Time menu-->
+    <string name="top_menu_share">แชร์</string>
+
+
+    <!--All menu config-->
+    <string name="menu_search">ค้นหา</string>
+    <string name="action_settings">ตั้งค่า</string>
+    <string name="installed_menu_search_hint">กรอกชื่อแอปพลิเคชันที่ต้องการค้นหา</string>
+    <string name="menu_select_period">เลือกแสดงการใช้งานแอปพลิเคชัน</string>
+    <string name="stats_day">วันนี้</string>
+    <string name="stats_yesterday">เมื่อวาน</string>
+    <string name="stats_week">สัปดาห์</string>
+    <string name="stats_year">เดือน</string>
+    <string name="nav_screen">ตรวจจับเวลาหน้าจอ</string>
+    <string name="nav_eye">ประเมินผลกระทบสุขภาพตา</string>
+    <string name="nav_intro">การดูแลสุขภาพตา</string>
+    <string name="know_id">เกล็ดความรู้การดูแลสุขภาพตา</string>
+    <string name="nav_mor">เพิ่มเติม</string>
+
+    <string name="btn_logout">ออกจากระบบ</string>
+    <string name="installed_include_system">แอปพลิเคชันที่มีอยู่ในระบบ</string>
+    <string name="top_head">5 อันดับสูงสุดในการใช้งานแอปพลิเคชันของสัปดาห์นี้</string>
+
+    <string name="tab_top">การใช้งานสูงสุด</string>
+    <string name="tab_stats">ตรวจจับเวลาหน้าจอ</string>
+    <string name="tab_installed">อนุญาติการตรวจจับ</string>
+
+    <string name="choose_action">เลือกการทำงาน</string>
+    <string name="launch">เปิด</string>
+    <string name="details">รายละเอียด</string>
+    <string name="system_menu">เมนูระบบ</string>
+    <string name="uninstall">ถอนการติดตั้ง</string>
+
+    <string name="top_share_header">5 อันดับแรกของแอปพลิเคชั่นที่ใช้งานมากที่สุด:\n</string>
+    <string name="enable_usage_permission">เปิดใช้สิทธิ์สำหรับ Eye Health แล้วกด back</string>
+    <string name="installed_spinner_sort">เรียงตาม</string>
+    <string name="top_time">เวลาที่ใช้งาน</string>
+    <string name="installed_cannot_be_launched">ไม่สามารถเปิดแอ็พพลิเคชันได้</string>
+
+    <string name="hours">h</string>
+    <string name="minutes">min</string>
+    <string name="seconds">sec</string>
 
 
 </resources>

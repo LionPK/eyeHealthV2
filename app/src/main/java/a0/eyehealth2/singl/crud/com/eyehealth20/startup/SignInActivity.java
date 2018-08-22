@@ -142,7 +142,6 @@ public class SignInActivity extends AppCompatActivity {
 
         // Link to Register Screen
         btnLinkToRegister.setOnClickListener(new View.OnClickListener() {
-
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(),
                         SignUpActivity.class);
